@@ -1,2 +1,2 @@
 #!/bin/bash
-sh -c 'cat iacta; tail -n 1 iacta'
+tail -n 1 iacta | cat iacta /dev/stdin
