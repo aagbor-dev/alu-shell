@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n 1 iacta | cat iacta /dev/stdin
+tail -1 iacta | xargs -I {} sh -c 'cat iacta; echo {}'
