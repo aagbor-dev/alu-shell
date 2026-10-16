@@ -10,4 +10,4 @@ while [ "$hour" -le 12 ]; do
 		((minute++))
 	done
 	((hour++))
-done
+donee
